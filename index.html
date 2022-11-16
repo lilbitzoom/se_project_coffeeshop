@@ -43,9 +43,7 @@
           </ul>
         </nav>
         <div class="header__title">
-          <h1 class="header__title-line title__span-accent">
-            Specialty coffee
-          </h1>
+          <h1 class="header__title-line span-accent">Specialty coffee</h1>
           <h1 class="header__title-line">in the Practicum Library</h1>
           <p class="header__description">
             Welcome to our study zone! We've got the coffee to energize you and
@@ -204,11 +202,11 @@
           </div>
         </section>
 
-        <section class="book-a-table" id="book-a-table">
-          <h2 class="book-a-table__title">Book a table</h2>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label for="name" class="input__label">Name *</label>
+            <fieldset class="reservation__form form">
+              <label for="name" class="form_label">Name *</label>
               <input
                 type="text"
                 class="form__input"
@@ -217,8 +215,8 @@
                 placeholder="Name Surname"
               />
             </fieldset>
-            <fieldset class="form__fieldset">
-              <label for="number-of-guest" class="input__label"
+            <fieldset class="reservation__form form">
+              <label for="number-of-guest" class="form_label"
                 >Number of guest *</label
               >
               <input
@@ -230,18 +228,16 @@
                 max="8"
               />
             </fieldset>
-            <fieldset class="form__fieldset">
-              <label for="date-&-time" class="input__label"
-                >Date & time *</label
-              >
+            <fieldset class="reservation__form form">
+              <label for="date-&-time" class="form_label">Date & time *</label>
               <input
                 type="datetime-local"
                 id="date-&-time"
                 class="form__input"
               />
             </fieldset>
-            <fieldset class="form__fieldset">
-              <label for="your-email" class="input__label">Your email *</label>
+            <fieldset class="reservation__form form">
+              <label for="your-email" class="form_label">Your email *</label>
               <input
                 type="email"
                 id="your-email"
@@ -249,12 +245,12 @@
                 class="form__input"
               />
             </fieldset>
-            <fieldset class="form__fieldset">
+            <fieldset class="reservation__form form">
               <button type="submit" class="form__button form__input">
                 Book a table
               </button>
             </fieldset>
-            <fieldset class="form__fieldset form__fieldset-checkbox">
+            <fieldset class="form form__checkbox">
               <input type="checkbox" name="terms" id="terms" />
               <label class="input__label" for="terms"
                 >I agree with the terms of use</label
