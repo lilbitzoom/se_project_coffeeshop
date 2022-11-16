@@ -22,7 +22,7 @@
   padding-bottom: 120px;
 }
 
-.form_label {
+.form__label {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -43,7 +43,7 @@
   width: 385px;
 }
 
-.form__checkbox {
+.reservation__checkbox {
   flex-direction: row;
   justify-content: center;
 }
