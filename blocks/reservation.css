@@ -26,3 +26,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+}
