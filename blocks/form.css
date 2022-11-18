@@ -40,6 +40,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  margin-bottom: 32px;
 }
 
 .form__button {
@@ -58,10 +59,16 @@
   opacity: 70%;
 }
 
+.form__checkbox {
+  display: flex;
+  margin: auto;
+}
+
 .checkbox {
   height: 20px;
   width: 20px;
   border-radius: 2px;
   background-image: url(../images/check.svg);
   background-color: #2f80ed;
+  margin-right: 12px;
 }

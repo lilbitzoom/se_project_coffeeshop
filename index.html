@@ -209,8 +209,6 @@
                 placeholder="Name Surname"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset form">
               <label for="number-of-guest" class="form__label"
                 >Number of guest *</label
               >
@@ -223,8 +221,6 @@
                 max="8"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset form">
               <label for="date-&-time" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
@@ -232,8 +228,6 @@
                 class="form__input"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset form">
               <label for="your-email" class="form__label">Your email *</label>
               <input
                 type="email"
@@ -242,23 +236,21 @@
                 class="form__input"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset form">
               <button type="submit" class="form__button form__input">
                 Book a table
               </button>
-            </fieldset>
-            <fieldset class="form reservation__checkbox">
-              <input
-                class="checkbox"
-                type="checkbox"
-                name="terms"
-                id="terms"
-                required
-              />
-              <label class="form__label" for="terms"
-                >I agree with the terms of use</label
-              >
+              <div class="form__checkbox">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="terms"
+                  id="terms"
+                  required
+                />
+                <label class="form__label" for="terms"
+                  >I agree with the terms of use</label
+                >
+              </div>
             </fieldset>
           </form>
         </section>
