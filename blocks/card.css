@@ -16,7 +16,6 @@
 }
 
 .card__list {
-  display: flex;
   gap: 10px;
   text-align: center;
   padding-bottom: 16px;
