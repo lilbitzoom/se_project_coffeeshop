@@ -38,6 +38,10 @@
   padding-bottom: 16px;
 }
 
+.card__list-item:last-child {
+  padding-bottom: 0;
+}
+
 .card__list-divider {
   display: inline-block;
   border-bottom: 1px solid white;
